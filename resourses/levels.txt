@@ -1,0 +1,140 @@
+﻿Level: 1
+
+                                                                      XXXXXXX
+                                                                      X-----X
+                                                                      X--@--X
+                                                                      X-----X
+                                                                      X--#8--X
+                                                                      X-----X
+                                                                      XXXDXXX
+                                                                      C..gD..X
+                                                                      X.....X
+                                                                      X..#7.H$X
+                                                                      X.....C
+                                                                      XXXDXXX
+                                                                      X..b..X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    C.....X
+X...............X..............X..........X.......H$...XBBBBBBBBBBX    X.....X
+X...............X.........H+....X......H$...X...........X..........XXCXXX.....C
+X...............X..............X..........X...........X.....................X
+X.....&.#1.......D....#2..H$......D....#3....bD...#4......bD....#6................X
+X..........H$....X..............X..........X...........X.....................C
+X...............X.........HM....X....H%.....X...........X..........XXCXXX.....X
+X...............X..............X..........X...........XBBBBBBBBBBX    X.H$.HM.X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDXXXXXXXXXXXXXXXXX    XXXXXXX
+                                              X...X
+                                              X...X
+                                              X...X
+                                              X...X
+                                              X...X
+                                              X...X
+                                              X...X
+                                              X#5H$.X
+                                              XXXXX
+
+Level: 2
+
+                                                            XXXXXXXXXXXXXXXXXX
+                                                            X................X
+                                    XXXXXXXXXXXXXXXXXXXXXXXXX..H$...K.....H$...X
+                                    X........O..O.....H$.....X...#3..""".......X
+                                    X.O.O........O..O.....gL.D......""".......X
+                                    X.O....O.O..............X..H+.........H+...X
+                                    X...O........O....O.....X................X
+                                    XXDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDXXXXXXXX
+                                    X.b.X                          X...X
+                                    X.O.X                          X...X
+                                    X...X                          C...X
+                                    X.OH$X                          X...X
+                                    X.O.X                          X...C
+                                    X.O.X                          X...X
+                                    X...X                          C...X
+                                    X.O.X                          X...X
+                              XXXXXXXXDXXXXXXX                     X...XXXXXXXXX
+                              X..............X                     X...........X
+XXXXXXXXX                     X.H+..........HP.XXXXXXXXXXXXXXXXXXXXXXX....T......X
+X.......XXXXXXXXXXXXXXXXXXXXXXX.......#1......X......BBBBBBBB...H$........"""....X
+X...#2.........................D.......&......D..#4........................#5"....X
+XH$............................X..............X......BBBBBBBB.............."....X
+X.......XXXXXXXXXXXXXXXXXXXXXXX..............XXXXXXXXXXXXXXXXXXXXXXX......"....X
+XXXXXXXXX                     X.H$..........HG.X                     XXXXXX.".XXXX
+                              X..............X                          X.".X
+                              XXXXXXXXXXXXXXXX                          C.".X
+                                                                        X.".X
+                                                                        X#6".C
+                                                                        X.".X
+                                                                        C.".X
+                                                                        X.".X
+                                                                        X.".C
+                          XXXXXXXXXXXXXXXXXXXXXXXCXXXCXXXCXXXCXXCXXCXXCXX.".X
+                          X****W***W***W*****X............................".C
+                          X**W*******W****W**De.."""""""""""""""""""""""""".X
+                          X********W***W*****X..............................C
+                          X*****W************XXXXCXXXCXXXCXXXCXXCXXCXXXXXCXXX
+                          X**W*******W****W**X
+                          X****W*e*****W*****X
+                          XXXXXXXDXXXXXXXXXXXX
+                               X----X
+                               X-@--X
+                               X----X
+                               XXXXXX
+
+Level: 3
+
+                                                   XXXXXXXXXXXCXXXXXXCXXXXCXXXCXXXXXXCXXXXCXXXCXXXCXXCXXXXCXXXCXXXXXCXXXXXCXXCXXXXCXXXXCXXXXCXXXXXXCXXXXCXXXCXXXXCXXX
+                                                   X********O****O**O*****O*****H$**O*O**O*#4*O***O**O****X**O***O**O***O****OOOO**O*O***O*OO*****gL******************HLX
+                                                   X**********O******O***O***O**O*O**O***O******O***O***D**O****O****O*OOO****O**O***O**O***OO*****************H$****X
+                          XXXXCXXXXXXXCXXXXCXXXXXCXXXDXXXXXXCXXXXXXCXXXXXXCXXXXXCXXXXXXXCXXXCXXXXXXXXCXXCXXXCXXXXXCXXXCXXXXXXCXXCXXXXXXCXXXXCXXXCXXXXXCXXXCXXCXXXX**C
+                          X**0*************HM**********X                                                                                                          X**X
+                          C****0**0***#9***************C                                                                                                          C**X
+XXXXXXXXXXXXXXXXXXX       X**0************************X                             XXXXXXXXXXXX                                                                 XXDXXXXXXXXXXX
+X......BBBBBB.....XXXXXXXXX********XXXXXXCXXXXXXCXXDXXX                             X..........X                                                                 XB"""""".....X
+XHA......e............Db************X           X**gD***X                             X....&.....X                                                                 XB.....""""".X
+XH$.....BBBBBB........X**#3*******H$**X           X******X                             XH$.........X                            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     XXXXXXXXXX.".X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCXXX           X******XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDXXXXX                            X..............................X              X.".X
+                             XH$***H+XXXXCXXXXCXXX******X****H$***W***********X******W*******W**W*X                            X...#7..T...............#8...mD...X              X.".X
+                             C************************X*************W***HP**X********W***W******X                            XB.""""""""........mL...........X         XXXXXX.".X
+                             X************************De*******W********W**X*******************X                            XB.".XXXXXXXXXXXXXXDXXXXXXXX...X         X..#5.""".X
+                             XXXCXXCXXXCXXXCXXXCXXXXXXXXXXXXXXX*******XXXXXXXXXXXXXXXXX**W***W*X                            XB.".X           X...X     X.H$.X         X.""""...X
+                                                              X*******X               X********X                            XB.".X           X..H$X     XXXXX         X."XXXXXXX
+                                                              X***e***X               X**#1*W***X                            XB.".X           X.mU.X                   X."X
+                                                              X*****W*X               X******H+*X                            XB.".X         XXXXDXXXX                 X."X
+                                                              X*W*****X               X********X                            XB.".X         X-------X                 X."X
+                                                              X****e**XXXXXXXXXXXXXXXXX**W**XXXX                            XB.".X         X---@---X                 X."X
+                                                              X**#2*******X****H$*****W*******X                               X..".X         X-------X                 X."X
+                                                              X**********De*****W******W****X                               X..".X         XXXXXXXXX                 X."X
+                                                              X**********X*********W*****W**X                               XB.".X                                   X."X
+                                                              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                               XB.".XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX."X
+                                                                                                                            XB."""""""""""""""""""""""""""""""""""""""""X
+                                                                                                                            XB...H+......#6........BBBBBB......BBBBBBB....X
+                                                                                                                            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Level: 4
+
+             XXXXXXXXXXX
+             X-H+-----H$-X
+             X---------X
+             X---------X
+             XXXX---XXXX                             XXXXXXXXXXXXXXXXXXXX
+                X---X                                X-------0----------X
+                X---X                                X------------------X
+                X---X                                X----------#50---0--X
+XXXXXXXXXXXXXXXXXXDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX------------------X
+X--H$--------X-----mD------X-HL---------HP-X------emLbemLbeX-------0----------X
+X-----------X------------X-------------X------emLbemLbeX--------------S---X
+X---&-#1----bD------#2----mLD---------#3--eD------emLbemLbeD--#4----@-----#7----X
+X-----------X------------X-------------X------emLbemLbeX------------------X
+X----b------X------H$-----X-H$----e----H$-X------emLbemLbeX-------0----------X
+XXXXXDXXXXXXXXXXXXXXXXXXXXXXXXXXDXXXXXXXXXXXXXXXXXXXXX------------------X
+   X---X                      X---X                  X----------#60---0--X
+   X---X                      X---X                  X------------------X
+   X---X                      X---X                  X-------0----------X
+XXXX---XXXX                XXXX---XXXX               XXXXXXXXXXXXXXXXXXXX
+X---------X                X---------X
+X----H$----X                X----H$----X
+X-HL-----HL-X                X-H+-----HA-X
+XXXXXXXXXXX                XXXXXXXXXXX
+
+
+
+

@@ -1,0 +1,43 @@
+@font-face{
+    src:url("../fonts/Sharpen.otf");
+}
+@font-face{
+    src:url("../fonts/Striped.otf");
+}
+@font-face{
+    src:url("../fonts/DuvallCNormal.ttf");
+}
+.anchor-pane{
+    -fx-background-image:url("../../../images/StartScreen.jpg");
+    -fx-background-size: cover;
+}
+
+.label{
+    -fx-font-family:"Exodus - Personal Use Sharpen",sans-serif;
+    -fx-effect: dropshadow( two-pass-box, black, 8, 10 , 2 , 0);
+}
+.another-label{
+    -fx-font-family:"Exodus - Personal Use Striped",sans-serif;
+    -fx-effect: dropshadow( two-pass-box, black, 7, 10 , 2 , 0);
+}
+.desc-label{
+    -fx-font-family:"DuvallC";
+    -fx-effect: dropshadow( two-pass-box, black, 6, 10 , 2 , 0);
+}
+#start{
+    -fx-font-size: 30px;
+    -fx-effect: dropshadow( two-pass-box, black, 3, 4 , 2 , 1);
+}
+.button{
+     -fx-background-color: linear-gradient(rgba(10,10,10,0.2),rgba(204,200,198,0.7),rgba(10,10,10,0.2));
+     -fx-border-width: 2px;
+     -fx-border-color: white;
+     -fx-border-radius: 20px;
+     -fx-background-radius: 20px;
+ }
+.button:hover{
+     -fx-background-color: linear-gradient(rgba(1,1,1,0.2),rgba(150,154,160,0.7),rgba(1,1,1,0.2));
+}
+.button:focused{
+    -fx-background-color: linear-gradient(rgba(1,1,1,0.2),rgba(150,154,160,0.7),rgba(1,1,1,0.2));
+}

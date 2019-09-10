@@ -1,0 +1,82 @@
+@font-face{
+    src:url("../fonts/Sharpen.otf");
+}
+@font-face{
+    src:url("../fonts/DuvallCNormal.ttf");
+}
+.grid-pane{
+     -fx-background-image:url("../../../images/FightBackground.jpg");
+     -fx-background-size:cover;
+   /*-fx-background-color:#35a030;*/
+}
+.anchor-pane-1{
+    -fx-background-image:url("../../../images/FightField.png");
+    -fx-background-size:cover;
+    /*-fx-background-color:#2e1d08;*/
+}
+.anchor-pane-2{
+    -fx-background-image:url("../../../images/Tile.jpg");
+    -fx-background-repeat:repeat;
+    -fx-border-width:2px;
+    -fx-border-color:black;
+   /* -fx-background-color:#c0cc61;
+    -fx-background-radius:10%;
+    -fx-border-radius:10%*/
+}
+.progress-bar-hero .track {
+  -fx-shadow-highlight-color: transparent;
+  -fx-text-box-border-color:#5a0404;
+  -fx-control-inner-background: #5a0404;
+  -fx-background-radius:20px;
+}
+.progress-bar-hero .bar {
+    -fx-shadow-highlight-color: transparent;
+    -fx-background-color:linear-gradient(rgba(157,14,14),rgba(255,15,15),rgba(157,14,14));
+    -fx-background-radius:9px;
+}
+.progress-bar-hero{
+    -fx-shadow-highlight-color: transparent;
+}
+.progress-bar-enemy .track {
+  -fx-shadow-highlight-color: transparent;
+  -fx-text-box-border-color:#651679;
+  -fx-control-inner-background:#651679;
+  -fx-background-radius:20px;
+}
+.progress-bar-enemy .bar {
+    -fx-shadow-highlight-color: transparent;
+    -fx-background-color:linear-gradient(rgba(148,17,184),rgba(172,0,255),rgba(148,17,184));
+    -fx-background-radius:9px;
+}
+.progress-bar-enemy{
+    -fx-shadow-highlight-color: transparent;
+}
+.button{
+     -fx-border-width: 2px;
+     -fx-border-color: white;
+     -fx-background-color:black;
+     -fx-text-fill:white;
+}
+.button:hover{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-text-fill:black;
+
+}
+.button:focused{
+     -fx-background-color:white;
+     -fx-border-color:black;
+     -fx-text-fill:black;
+ }
+ .label{
+    -fx-effect: dropshadow( two-pass-box, black, 8, 10 , 2 , 0);
+    -fx-font-family:"Exodus - Personal Use Sharpen",sans-serif;
+ }
+ .enemy-label{
+     -fx-effect: dropshadow( two-pass-box, black, 8, 10 , 2 , 0);
+     -fx-font-family:"DuvallC";
+ }
+ .desc-label{
+     -fx-effect: dropshadow( two-pass-box, black, 5, 10 , 2 , 0);
+     -fx-font-family:"Exodus - Personal Use Sharpen",sans-serif;
+ }

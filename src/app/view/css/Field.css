@@ -1,0 +1,55 @@
+.anchor-pane{
+    -fx-background-image:url("../../../images/Background.png");
+    -fx-background-repeat:repeat;
+}
+.game-field{
+    -fx-background-image:url("../../../images/Canvas.jpg");
+    -fx-background-repeat:repeat;
+}
+.button{
+     -fx-border-width: 2px;
+     -fx-border-color: white;
+     -fx-background-color:black;
+     -fx-text-fill:white;
+}
+.button:hover{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-text-fill:black;
+
+}
+.button:focused{
+     -fx-background-color:white;
+     -fx-border-color:black;
+     -fx-text-fill:black;
+ }
+.grid-pane{
+    -fx-background-image:url("../../../images/BackGrid.png");
+    -fx-background-size:cover;
+    -fx-border-width: 2px;
+    -fx-border-color:#0d0c0c;
+}
+.stack-pane{
+    -fx-background-color:#2b2724;
+    -fx-effect: innershadow( two-pass-box, black, 5, 3 , 2 , 0);
+}
+.progress-bar .track {
+  -fx-shadow-highlight-color: transparent;
+  -fx-text-box-border-color:#5a0404;
+  -fx-control-inner-background:#5a0404;
+  -fx-background-radius:20px;
+}
+.progress-bar .bar {
+    -fx-shadow-highlight-color: transparent;
+    -fx-background-color:linear-gradient(rgba(157,14,14),rgba(255,15,15),rgba(157,14,14));
+    -fx-background-radius:9px;
+}
+.progress-bar{
+    -fx-shadow-highlight-color: transparent;
+}
+/*front:#e81111
+  back:#7c0707*/
+/*-fx-background-color:#0d0d0d;
+      -fx-effect: innershadow( three-pass-box, rgba(137,12,12,0.6), 3, 8 , 0.5 , 0);*/
+/*-fx-background-color:#2b2724;
+      -fx-effect: innershadow( two-pass-box, black, 5, 3 , 2 , 0);*/

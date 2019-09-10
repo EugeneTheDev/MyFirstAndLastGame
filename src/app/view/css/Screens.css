@@ -1,0 +1,48 @@
+@font-face{
+    src:url("../fonts/Striped.otf");
+}
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+  }
+
+.scroll-pane {
+    -fx-background-color:transparent;
+}
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #931c7b;
+    -fx-background-radius: 5em;
+}
+.grid-pane {
+    -fx-background-color: rgba(10,10,10,0.9);
+}
+.button{
+     -fx-border-width: 2px;
+     -fx-border-color: white;
+     -fx-background-color:black;
+     -fx-text-fill:white;
+}
+.button:hover{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-text-fill:black;
+}
+.button:focused{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-text-fill:black;
+}
+.special-label{
+     -fx-font-family:"Exodus - Personal Use Striped",sans-serif;
+     -fx-effect: dropshadow( two-pass-box, black, 8, 10 , 2 , 0);
+}
+.stack-pane{
+    -fx-background-color: rgba(10,10,10,0.75);
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="600.0" styleClass="anchor-pane" stylesheets="@css/EnemyDescription.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.EnemyDescriptionController">
+   <children>
+      <StackPane layoutX="228.0" layoutY="130.0" prefHeight="113.0" prefWidth="145.0" styleClass="stack-pane">
+         <children>
+            <ImageView fx:id="icon" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+         </children></StackPane>
+      <Label fx:id="name" alignment="TOP_CENTER" layoutX="102.0" layoutY="14.0" prefHeight="113.0" prefWidth="397.0" styleClass="special-label" text="Label" textFill="#651679">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="description" alignment="TOP_CENTER" layoutX="96.0" layoutY="250.0" prefHeight="113.0" prefWidth="408.0" styleClass="lb" text="Label" textFill="#a45c09">
+         <font>
+            <Font name="Bernard MT Condensed" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="itemsToOffer" alignment="TOP_CENTER" layoutX="130.0" layoutY="363.0" prefHeight="73.0" prefWidth="340.0" styleClass="lb" text="Label" textFill="#a13737">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="92.0" layoutY="446.0" mnemonicParsing="false" onAction="#handleFight" text="Fight">
+         <font>
+            <Font name="Felix Titling" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="455.0" layoutY="446.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel">
+         <font>
+            <Font name="Felix Titling" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

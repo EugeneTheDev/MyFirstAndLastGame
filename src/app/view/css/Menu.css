@@ -1,0 +1,28 @@
+@font-face{
+    src:url("../fonts/Striped.otf");
+}
+
+.label{
+    -fx-font-family:"Exodus - Personal Use Striped",sans-serif;
+    -fx-effect: dropshadow( two-pass-box, black, 3, 4 , 2 , 1);
+}
+.button{
+     -fx-border-width: 2px;
+     -fx-border-color: white;
+     -fx-background-color:black;
+     -fx-text-fill:white;
+}
+.button:hover{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-text-fill:black;
+}
+.button:focused{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-text-fill:black;
+}
+.anchor-pane{
+    -fx-background-image:url("../../../images/Menu.png");
+    -fx-background-size:cover;
+}

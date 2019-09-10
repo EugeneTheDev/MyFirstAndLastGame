@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" styleClass="anchor-pane" stylesheets="@css/Chest.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.ForChestController">
+    <children>
+        <StackPane layoutX="199.0" layoutY="41.0" styleClass="stack-pane">
+            <children>
+                <ImageView fx:id="icon" fitHeight="100.0" fitWidth="100.0" layoutX="200.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="21.0" />
+            </children>
+        </StackPane>
+        <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="159.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="45.0" prefWidth="395.0" text="Label" textAlignment="CENTER" textFill="#5b1111" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="54.0" AnchorPane.topAnchor="159.0">
+            <font>
+                <Font name="Berlin Sans FB Bold" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="description" alignment="TOP_CENTER" layoutX="99.0" layoutY="202.0" prefHeight="116.0" prefWidth="321.0" text="Label" textFill="#a4a406" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="96.0" AnchorPane.topAnchor="202.0">
+            <font>
+                <Font name="Century Schoolbook Bold" size="21.0" />
+            </font>
+        </Label>
+        <Button layoutX="65.0" layoutY="340.0" mnemonicParsing="false" onAction="#handlePickUp" text="Pick up" textFill="#ddc9c9" AnchorPane.bottomAnchor="29.0" AnchorPane.leftAnchor="65.0">
+            <font>
+                <Font name="Felix Titling" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button layoutX="400.0" layoutY="340.0" mnemonicParsing="false" onAction="#handleLeave" text="Leave" textFill="#ddc9c9" AnchorPane.bottomAnchor="29.0" AnchorPane.rightAnchor="65.0">
+            <font>
+                <Font name="Felix Titling" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+    </children>
+</AnchorPane>

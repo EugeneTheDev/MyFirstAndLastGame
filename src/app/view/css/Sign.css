@@ -1,0 +1,28 @@
+.grid-pane {
+     -fx-background-image:url("../../../images/SignBack.png");
+     -fx-background-size:cover;
+     -fx-border-width: 2px;
+     -fx-border-color: black;
+}
+.button{
+     -fx-border-width: 2px;
+     -fx-border-color: white;
+     -fx-background-color:black;
+     -fx-text-fill:white;
+}
+.button:hover{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-text-fill:black;
+}
+.button:focused{
+    -fx-background-color:white;
+    -fx-border-color:black;
+    -fx-text-fill:black;
+}
+.button:default{
+    -fx-effect:dropshadow( two-pass-box, rgba(206,28,28,0.8), 5, 5, 0 , 0);
+}
+.label{
+    -fx-effect: dropshadow( two-pass-box, black, 3, 4 , 2 , 1);
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane stylesheets="@css/FightScreen.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.FightScreenController">
+   <children>
+      <GridPane focusTraversable="true" layoutY="88.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="grid-pane" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="225.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="553.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="222.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="229.0" minHeight="0.0" prefHeight="91.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="483.0" minHeight="10.0" prefHeight="310.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="304.0" minHeight="10.0" prefHeight="190.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="303.0" minHeight="10.0" prefHeight="59.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="160.0" minWidth="265.0" prefHeight="160.0" prefWidth="265.0" styleClass="anchor-pane-2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <children>
+                  <GridPane layoutX="71.0" layoutY="-2.0" prefHeight="190.0" prefWidth="373.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="183.0" minWidth="10.0" prefWidth="65.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="183.0" minWidth="10.0" prefWidth="121.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.0" minWidth="0.0" prefWidth="169.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="106.0" minHeight="10.0" prefHeight="14.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="177.0" minHeight="10.0" prefHeight="148.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="177.0" minHeight="3.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" styleClass="anchor-pane-1" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#handleInterrupt" text="Interrupt Fight" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Felix Titling" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <GridPane GridPane.columnIndex="2" GridPane.rowIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="149.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="77.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="127.0" minHeight="10.0" prefHeight="89.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="enemyName" prefHeight="193.0" prefWidth="221.0" styleClass="enemy-label" text="Enemy" textFill="#651679" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="157.0" prefWidth="216.0" text="White&#10;Face" textFill="#d01717" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="enemyName1" prefHeight="50.0" prefWidth="152.0" text="VS" textFill="#870e1e" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <GridPane GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="83.0" minWidth="10.0" prefWidth="74.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="76.0" minWidth="10.0" prefWidth="76.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fitHeight="105.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../objects/FireShield.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="enemyName11" prefHeight="50.0" prefWidth="65.0" styleClass="desc-label" text="(E) &#10;VS" textFill="#f4340d" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="enemyName111" prefHeight="50.0" prefWidth="65.0" styleClass="desc-label" text="(Q)&#10;VS" textFill="#f4340d" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="enemyName112" prefHeight="50.0" prefWidth="65.0" styleClass="desc-label" text="(W)&#10;VS" textFill="#f4340d" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="105.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../../objects/Fire.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../../objects/LaserShield.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@../../objects/Sword.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../../objects/Laser.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@../../objects/SwordShield.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+            <ImageView fitHeight="105.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </GridPane>
+      <ProgressBar fx:id="heroHealthBar" layoutX="41.0" layoutY="24.0" prefHeight="50.0" prefWidth="213.5" progress="1.0" styleClass="progress-bar-hero" AnchorPane.leftAnchor="41.0" AnchorPane.topAnchor="50.0" />
+      <ProgressBar fx:id="enemyHealthBar" layoutX="745.0" layoutY="24.0" prefHeight="50.0" prefWidth="213.5" progress="1.0" rotate="180.0" styleClass="progress-bar-enemy" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="50.0" />
+      <ImageView fitHeight="70.0" fitWidth="289.0" layoutX="6.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="40.0">
+         <image>
+            <Image url="@../../images/HealthBar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="254.0" layoutX="745.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="12.0">
+         <image>
+            <Image url="@../../images/EnemyHealthBar.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
